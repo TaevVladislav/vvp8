@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cin >> a;
+	int right_n = a % 100;
+	int left_n = a / 100;
+	int b = right_n * 10 + left_n;
+	cout << "new number = " << b;
+}
