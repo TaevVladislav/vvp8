@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cin >> a;
+	int right_n = a % 10;
+	int left_n = a / 10;
+	int reverse_a = right_n * 10 + left_n;
+	cout << "reverse number = " << reverse_a;
+}
